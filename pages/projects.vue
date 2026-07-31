@@ -5,7 +5,7 @@
     <div class="project">
       <div class="container">
         <figure class="no-margin">
-          <img src="assets/imgs/edtech-admin-screenshot.jpg" alt="EdTech Admin Platform Screenshot" />
+          <img src="assets/imgs/volcodeorg-app.jpg" alt="EdTech Admin Platform Screenshot" />
         </figure>
         <div class="project-info">
           <strong>EDTECH</strong>
@@ -43,7 +43,7 @@
     <div class="project">
       <div class="container">
         <figure class="no-margin">
-          <img src="assets/imgs/voice-clone-screenshot.jpg" alt="AI Voice Clone Tool Screenshot" />
+          <img src="assets/imgs/volcodeorg-app.jpg" alt="AI Voice Clone Tool Screenshot" />
         </figure>
         <div class="project-info">
           <strong>EDTECH</strong>
@@ -73,7 +73,7 @@
     <div class="project">
       <div class="container">
         <figure class="no-margin">
-          <img src="assets/imgs/student-reading-screenshot.jpg" alt="Student Reading Experience Screenshot" />
+          <img src="assets/imgs/volcodeorg-app.jpg" alt="Student Reading Experience Screenshot" />
         </figure>
         <div class="project-info">
           <strong>EDTECH</strong>
@@ -107,7 +107,7 @@
     <div class="project">
       <div class="container">
         <figure class="no-margin">
-          <img src="assets/imgs/edtech-infra-screenshot.jpg" alt="EdTech Cloud Infrastructure Screenshot" />
+          <img src="assets/imgs/volcodeorg-app.jpg" alt="EdTech Cloud Infrastructure Screenshot" />
         </figure>
         <div class="project-info">
           <strong>EDTECH</strong>
