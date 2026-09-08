@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mehmet Deveci — Senior Software Engineer</title>
+<style>
+  @page { size: A4; margin: 13mm 14mm 12mm 14mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 9.6pt; line-height: 1.32; color: #111;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  a { color: #0b4f8a; text-decoration: none; }
+  h1 { font-size: 19pt; margin: 0; letter-spacing: 0.2px; font-weight: 700; }
+  .subtitle { font-size: 11pt; font-weight: 700; color: #0b4f8a; margin: 1px 0 4px; }
+  .contact { font-size: 8.8pt; color: #333; }
+  .contact span + span::before { content: "  ·  "; color: #999; }
+  h2 {
+    font-size: 9.6pt; text-transform: uppercase; letter-spacing: 1.1px; color: #0b4f8a;
+    margin: 9pt 0 3.5pt; padding-bottom: 2pt; border-bottom: 1.2px solid #0b4f8a;
+  }
+  p { margin: 0 0 4pt; }
+  .summary { margin-top: 5pt; }
+  .job { margin-bottom: 5.5pt; page-break-inside: avoid; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-title { font-weight: 700; font-size: 10pt; }
+  .job-title .co { font-weight: 700; }
+  .job-title .role { font-weight: 400; color: #222; }
+  .job-meta { font-size: 8.6pt; color: #444; white-space: nowrap; }
+  .stack { font-size: 8.4pt; color: #555; margin: 0 0 1.5pt; }
+  ul { margin: 1pt 0 0; padding-left: 12pt; }
+  li { margin: 0 0 1.4pt; padding-left: 1pt; }
+  li::marker { color: #0b4f8a; }
+  .skills { display: grid; grid-template-columns: 96pt 1fr; row-gap: 1.6pt; column-gap: 6pt; }
+  .skills b { color: #222; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; column-gap: 18pt; }
+  .edu { margin-bottom: 3pt; }
+  .edu b { display: block; }
+  .muted { color: #444; font-size: 8.8pt; }
+  .earlier { font-size: 9.2pt; color: #333; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mehmet Deveci</h1>
+  <div class="subtitle">Senior Software Engineer · Frontend-focused Full Stack (Vue/Nuxt · TypeScript · Node · AWS)</div>
+  <div class="contact">
+    <span>Berlin, Germany</span>
+    <span>+49 178 8980493</span>
+    <span><a href="mailto:deveci2024@gmail.com">deveci2024@gmail.com</a></span>
+    <span><a href="https://volcode.org">volcode.org</a></span>
+    <span><a href="https://github.com/volcodes">github.com/volcodes</a></span>
+    <span><a href="https://linkedin.com/in/deveci96">linkedin.com/in/deveci96</a></span>
+  </div>
+</header>
+
+<p class="summary">
+  Software engineer with <b>10+ years</b> building web products across logistics, ed-tech, real estate, media and SaaS, in fast-paced startups and enterprise teams.
+  Deep in <b>Vue/Nuxt and TypeScript</b>, comfortable end to end: React/Next.js and Electron on the client, Node.js, PHP and Java Spring Boot on the server, Docker, AWS, Terraform and CI/CD underneath.
+  Known for shipping measurable outcomes (page speed, test coverage, infra cost), writing the RFCs that set team standards, and mentoring engineers to promotion.
+</p>
+
+<h2>Experience</h2>
+
+<div class="job">
+  <div class="job-head">
+    <div class="job-title"><span class="co">CONROO GmbH</span> <span class="role">— Software Engineer (Full Stack)</span></div>
+    <div class="job-meta">Berlin, Germany · 07/2025 – Present</div>
+  </div>
+  <div class="stack">Vue 3, Nuxt 4, TypeScript, Vitest, Cypress, Java Spring Boot, WebRTC, GCP, Datadog</div>
+  <ul>
+    <li>Authored and led the <b>Vue 3 → Nuxt 4 migration RFC</b> using domain-driven design, restructuring the codebase into 5 business-domain layers across 123+ branches.</li>
+    <li>Built <b>VoIP/WebRTC calling</b> for terminal operations: real-time call support, cancel/reject flows and heartbeat monitoring.</li>
+    <li>Delivered backend services in <b>Java Spring Boot</b>: stale-tour cleanup job with distributed locking, mobile booking endpoints and an API gateway.</li>
+    <li>Fixed ~100 failing tests and wrote the testing-guidelines RFC, <b>raising coverage to 88%</b>.</li>
+    <li>Integrated <b>Datadog structured logging and distributed tracing</b> for end-to-end production observability; investigated and fixed an OIDC code-challenge vulnerability in the auth flow.</li>
+    <li>Introduced <b>AI-assisted engineering</b>: evaluated 5 tools (Claude Code, Gemini, Copilot) and wrote the company-wide adoption guidelines.</li>
+    <li>Authored 10+ RFCs (endpoint naming, trunk-based development, feature flags, API migration strategy) that standardised engineering practice across the team.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <div class="job-title"><span class="co">AIManager360</span> <span class="role">— Fractional Full Stack Developer</span></div>
+    <div class="job-meta">Berlin, Germany (remote) · 01/2025 – 06/2025</div>
+  </div>
+  <div class="stack">React, Next.js, TypeScript, Node.js, Docker</div>
+  <ul>
+    <li>Implemented <b>i18n/localisation</b> in a React/Next.js app, opening Spanish-speaking markets and <b>expanding reach by ~25%</b>.</li>
+    <li>Built admin dashboards for validating and editing <b>LLM-generated data</b>.</li>
+    <li>Automated the local environment with Docker, <b>cutting developer onboarding time by 50%</b>.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <div class="job-title"><span class="co">Sdui GmbH</span> <span class="role">— Senior Frontend Developer</span></div>
+    <div class="job-meta">Berlin, Germany · 02/2023 – 06/2024</div>
+  </div>
+  <div class="stack">Vue/Vuex, React, TypeScript, Electron, Matrix, Cypress, Jest, Kubernetes, GitLab CI, PHP/Laravel</div>
+  <ul>
+    <li>Conceptualised and shipped <b>video conferencing</b> in a React/Electron encrypted messenger (Matrix), enabling 200+ school admins and teachers to schedule and launch calls.</li>
+    <li>Rebuilt event listing, editing and scheduling flows in Vue/Vuex, <b>lifting user engagement by 20%</b> and cutting load times on listing screens.</li>
+    <li>Upgraded privacy settings in the chat app; wrote the team's <b>Vue 2 → Vue 3 migration guide</b> and iOS notification/WebSocket docs, shortening onboarding and debugging time.</li>
+    <li>Expanded E2E and unit coverage with Cypress, Jest and Vue Test Utils; led code reviews and pair sessions that raised junior developer velocity.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <div class="job-title"><span class="co">Homeday GmbH</span> <span class="role">— Senior Frontend Engineer</span></div>
+    <div class="job-meta">Berlin, Germany · 03/2020 – 01/2023</div>
+  </div>
+  <div class="stack">Vue, Nuxt, TypeScript, Storybook, Jest, Cypress, Testing Library, Node.js, PHP/Symfony, Contentful, AWS, Docker, GitHub Actions</div>
+  <ul>
+    <li>Migrated 20+ legacy PHP layouts to Vue/Nuxt, <b>improving page speed by 20–30%</b> and unlocking the design system in the new app.</li>
+    <li>Built frontend infrastructure on <b>AWS and GitHub Actions</b>, <b>trimming costs by 15%</b>; wrote Node.js CI services for deployment, asset handling and image optimisation.</li>
+    <li>Enhanced the shared design system with Storybook, removing redundant components and <b>raising test coverage to 74%</b>; introduced integration tests that <b>cut pipeline time by 20%</b>.</li>
+    <li>Integrated Sentry, Grafana and InfluxDB to monitor web performance across six codebases.</li>
+    <li>Launched a structured mentorship programme (1:1s, pair programming), leading to <b>two promotions</b>; co-led the Diversity &amp; Inclusion taskforce and ran unconscious-bias training.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <div class="job-title"><span class="co">TRT World</span> <span class="role">— Frontend Engineer</span></div>
+    <div class="job-meta">Istanbul, Turkey · 03/2018 – 02/2020</div>
+  </div>
+  <div class="stack">Vue/Vuex, Node.js, PHP/Laravel, MySQL, Webpack, AWS, REST</div>
+  <ul>
+    <li>Delivered the 2018 and 2019 <b>election result pages</b> (3M+ monthly visitors) and SVG election maps serving <b>75k+ concurrent users</b> across 50+ platforms.</li>
+    <li>Built an asset-management app (AssetHQ) from scratch with Node.js and Vue, <b>halving content search times</b> for the newsroom.</li>
+    <li>Designed a drag-and-drop page editor and fast keyboard search, <b>accelerating editorial workflows by 30–50%</b> for 100+ staff.</li>
+  </ul>
+</div>
+
+<p class="earlier"><b>Earlier:</b> Full Stack Developer, Crabs Media (digital marketing agency), Istanbul · 07/2014 – 12/2017 — PHP/MySQL/JavaScript web apps and client sites.</p>
+
+<h2>Skills</h2>
+<div class="skills">
+  <b>Frontend</b><span>Vue.js, Nuxt (2–4), TypeScript, JavaScript, React, Next.js, Electron, Vite, Webpack, Tailwind, SCSS, Storybook, WebRTC, accessibility &amp; performance tuning</span>
+  <b>Backend</b><span>Node.js, NestJS, Java Spring Boot, PHP (Laravel, Symfony), REST, GraphQL, MySQL/SQL, Contentful</span>
+  <b>Cloud &amp; DevOps</b><span>AWS, GCP, Docker, Kubernetes, Terraform, Cloudflare Workers/R2, GitHub Actions, GitLab CI, Jenkins</span>
+  <b>Testing &amp; Quality</b><span>Vitest, Jest, Cypress, Vue Test Utils, Testing Library, E2E/integration/snapshot strategy, TDD</span>
+  <b>Observability</b><span>Datadog (logs, tracing), Sentry, Grafana, InfluxDB</span>
+  <b>AI tooling</b><span>Claude Code, GitHub Copilot, Gemini; LLM-output validation UIs; AI adoption guidelines</span>
+  <b>Ways of working</b><span>RFC-driven design, trunk-based development, feature flags, Agile (Scrum/Kanban), mentoring, cross-functional workshops</span>
+</div>
+
+<div class="two">
+  <div>
+    <h2>Education</h2>
+    <div class="edu"><b>Istanbul Arel University</b><span class="muted">Associate's Degree, Computer Programming · 2014 – 2017</span></div>
+    <div class="edu"><b>Inonu Technical High School</b><span class="muted">Vocational Training, Information Technologies · 2010 – 2013</span></div>
+  </div>
+  <div>
+    <h2>Certificates &amp; Languages</h2>
+    <p class="muted">Software Design Principles (OOP, UML, SOLID, Design Patterns) · Communicating with Emotional Intelligence · Interpersonal Communication</p>
+    <p class="muted">English (professional working) · Turkish (native)</p>
+  </div>
+</div>
+
+<h2>Selected Projects &amp; Links</h2>
+<ul>
+  <li><b>volcode.org</b> — Nuxt portfolio hosted on Cloudflare via Terraform (3 Nuxt apps, Workers-based auth, R2 CDN) at zero hosting cost. <a href="https://github.com/volcodes/volcodeorg-app">github.com/volcodes/volcodeorg-app</a></li>
+  <li><b>Gamified reading app</b> — per-page progress tracking, quizzes and reading streaks for students.</li>
+  <li>Recommendations from managers and colleagues on <a href="https://linkedin.com/in/deveci96">LinkedIn</a> · 2-minute intro video on <a href="https://volcode.org">volcode.org</a></li>
+</ul>
+
+</body>
+</html>
